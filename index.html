@@ -8,45 +8,51 @@
 
 <body>
     <header>
-        <a class="Gmail hlink" href="mail.google.com">Gmail</a>
-        <a class="hlink" href="images.google.com">Images</a>
+        <a class="Gmail hlink" href="https://www.google.com/gmail/">Gmail</a>
+        <a class="hlink" href="http://www.images.google.com">Images</a>
         <button id="trayiconbutton">
             <div id="trayicon">
-            <!--time to do something dumb-->
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <div class="graybox"></div>
-            <!--oh god-->
-        </div>
+                <!--time to do something dumb-->
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <div class="graybox"></div>
+                <!--oh god-->
+            </div>
         </button>
         <button class="roundedbutton" id="signin">Sign in</button>
     </header>
-
+<!--
+https://icon-library.com/images/magnifying-glass-icon-transparent/magnifying-glass-icon-transparent-20.jpg https://p7.hiclipart.com/preview/456/948/884/computer-icons-desktop-wallpaper-web-search-engine-wordpress-com-clip-art-png-search-download-icon.jpg
+-->
     <div id="centergrid">
-        <img href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             alt="Google Logo">
         <div id="searchbar">
-            <div class="rounded-left">
-                <img href="https://f0.pngfuel.com/png/648/874/magnifying-glass-computer-icons-magnifying-glass-png-clip-art.png"
-                    alt="Search">
+            <div class="icon-div">
+                <img class="search-icon" src="https://listimg.pinclipart.com/picdir/s/15-157992_lens-clipart-magnifier-magnifying-glass-icon-grey-png.png" alt="Search">
             </div>
             <input id="searchbar-input" type="text"></input>
-            <div class="rounded-right">
-                <img href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
+            <div class="icon-div">
+
+                <img class="search-icon hoverable"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
                     alt="Search by voice">
             </div>
+
         </div>
-        <button class="roundedbutton">Google Search</button>
-        <button class="roundedbutton">I'm Feeling Lucky</button>
+        <div id="buttons">
+            <button class="roundedbutton search-button">Google Search</button>
+            <button class="roundedbutton search-button">I'm Feeling Lucky</button>
+        </div>
     </div>
 
-    <footer>
+    <footer id="gray">
         <div class="left">
             <a
                 href="https://www.google.com/intl/en_il/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
